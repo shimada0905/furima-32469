@@ -1,70 +1,70 @@
-<mxfile host="65bd71144e" modified="2020-12-17T07:06:31.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="F9X_6bqvjWRupZubyb_L" version="13.10.0" type="embed">
+<mxfile host="65bd71144e" modified="2020-12-17T08:26:13.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="IJTUJMAyZC-80TKKCGK9" version="13.10.0" type="embed">
     <diagram id="6H3XNWaFJNBFcgjw_Us-" name="ページ1">
         <mxGraphModel dx="968" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-32" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="70" y="5" width="220" height="266" as="geometry"/>
+                    <mxGeometry x="70" y="5" width="240" height="266" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-33" value="nickname (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="26" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="26" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-35" value="email (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="56" width="220" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-35" value="email (string型,null: false, unique:true)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
+                    <mxGeometry y="56" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-62" value="password (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="86" width="220" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-62" value="encrypted_password (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
+                    <mxGeometry y="86" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-64" value="first_name  (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="116" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="116" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-65" value="last_name (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="146" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="146" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-67" value="first_name_kana (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="176" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="176" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-68" value="last_name_kana (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="206" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="206" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-69" value="birth_date (date型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-32" vertex="1">
-                    <mxGeometry y="236" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="236" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-49" value="Item" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="5" width="220" height="296" as="geometry">
+                    <mxGeometry x="510" y="5" width="250" height="296" as="geometry">
                         <mxRectangle x="510" y="5" width="60" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-50" value="item_name (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="26" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="26" width="250" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-51" value="introduction (text型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="56" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="56" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-52" value="category (string型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="86" width="220" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-52" value="category_id (integer型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
+                    <mxGeometry y="86" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-72" value="condition (string型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="116" width="220" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-72" value="condition_id (integer型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
+                    <mxGeometry y="116" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-73" value="shipment_source (string型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="146" width="220" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-73" value="shipment_source_id (integer型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
+                    <mxGeometry y="146" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-74" value="shipping_charges (string型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="176" width="220" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-74" value="shipping_charges_id (integer型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
+                    <mxGeometry y="176" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-75" value="shipping_day (string型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="206" width="220" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-75" value="shipping_day_id (integer型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
+                    <mxGeometry y="206" width="250" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-76" value="price (integer型, null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="236" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="236" width="250" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-77" value="user  (references型, foreign_key: true)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-49" vertex="1">
-                    <mxGeometry y="266" width="220" height="30" as="geometry"/>
+                    <mxGeometry y="266" width="250" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-53" value="PurchaseRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="70" y="440" width="300" height="116" as="geometry"/>
+                    <mxGeometry x="70" y="440" width="300" height="86" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-54" value="Item   (references型, foreign_key: true)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-53" vertex="1">
                     <mxGeometry y="26" width="300" height="30" as="geometry"/>
@@ -72,29 +72,29 @@
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-55" value="user  (references型, foreign_key: true)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-53" vertex="1">
                     <mxGeometry y="56" width="300" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-101" value="shipping_address  (references型, foreign_key: true)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-53" vertex="1">
-                    <mxGeometry y="86" width="300" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-57" value="ShippingAddress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="440" width="210" height="206" as="geometry"/>
+                    <mxGeometry x="520" y="440" width="280" height="236" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-58" value="post_code (integer型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
-                    <mxGeometry y="26" width="210" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-58" value="post_code (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
+                    <mxGeometry y="26" width="280" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-59" value="prefecture (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
-                    <mxGeometry y="56" width="210" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-59" value="prefecture_id (integer型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
+                    <mxGeometry y="56" width="280" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-60" value="city (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
-                    <mxGeometry y="86" width="210" height="30" as="geometry"/>
+                    <mxGeometry y="86" width="280" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-93" value="house_number (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
-                    <mxGeometry y="116" width="210" height="30" as="geometry"/>
+                    <mxGeometry y="116" width="280" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-94" value="building_name (string型)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
-                    <mxGeometry y="146" width="210" height="30" as="geometry"/>
+                    <mxGeometry y="146" width="280" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="nMaaSXPeGSdAkTmcAMBx-95" value="tel (integer型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
-                    <mxGeometry y="176" width="210" height="30" as="geometry"/>
+                <mxCell id="nMaaSXPeGSdAkTmcAMBx-95" value="tel (string型,null: false)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="nMaaSXPeGSdAkTmcAMBx-57" vertex="1">
+                    <mxGeometry y="176" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="purchase_record (references型, foreign_key: true)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="nMaaSXPeGSdAkTmcAMBx-57">
+                    <mxGeometry y="206" width="280" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="nMaaSXPeGSdAkTmcAMBx-90" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;startArrow=ERone;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=20;startSize=20;endFill=0;startFill=0;" parent="1" source="nMaaSXPeGSdAkTmcAMBx-55" target="nMaaSXPeGSdAkTmcAMBx-59" edge="1">
                     <mxGeometry width="100" height="100" relative="1" as="geometry">
