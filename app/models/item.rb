@@ -3,13 +3,9 @@ class Item < ApplicationRecord
   has_one_attached :image
   extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to_active_hash :category
-  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to_active_hash :prefecture
-  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to_active_hash :condition
-  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to_active_hash :shipping_cost
-  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to_active_hash :shipping_day
 
   with_options presence: true do
@@ -22,7 +18,7 @@ class Item < ApplicationRecord
       validates :shipping_cost_id
       validates :shipping_day_id
     end
-    validates :price, numericality: { greater_than_or_equal_to: 300, less_than_or_equal_to: 9999999 }
+    validates :price, numericality: { greater_than_or_equal_to: 300, less_than_or_equal_to: 9_999_999, only_integer: true }
     validates :image
   end
 end
