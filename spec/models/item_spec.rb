@@ -12,7 +12,7 @@ RSpec.describe Item, type: :model do
       end
     end
 
-    context '新規登録がうまくいくとき' do
+    context '商品出品がうまくいかない時' do
       it 'item_nameが空だと出品ができないこと' do
         @item.item_name = nil
         @item.valid?
