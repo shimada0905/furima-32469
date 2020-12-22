@@ -41,10 +41,10 @@
 
 ## purchase_records テーブル
 
-| Column | Type       | Options          |
-|--------|------------|------------------|
-| item   | references | foreign_key_true |
-| user   | references | foreign_key_true |
+| Column | Type       | Options           |
+|--------|------------|-------------------|
+| item   | references | foreign_key: true |
+| user   | references | foreign_key: true |
 
 ### Association
 
@@ -54,15 +54,15 @@
 
 ## shipping_addresses テーブル
 
-| Column          | Type       | Options          |
-|-----------------|------------|------------------|
-| post_code       | string     | null:false       |
-| prefecture_id   | integer    | null: false      |
-| city            | string     | null: false      |
-| house_number    | string     | null: false      |
-| building_name   | string     |                  |
-| tel             | string     | null: false      |
-| purchase_record | references | foreign_key_true |
+| Column          | Type       | Options           |
+|-----------------|------------|-------------------|
+| post_code       | string     | null:false        |
+| prefecture_id   | integer    | null: false       |
+| city            | string     | null: false       |
+| house_number    | string     | null: false       |
+| building_name   | string     |                   |
+| tel             | string     | null: false       |
+| purchase_record | references | foreign_key: true |
 
 
 ### Association
