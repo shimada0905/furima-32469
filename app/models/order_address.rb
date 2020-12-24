@@ -1,6 +1,6 @@
 class OrderAddress
   include ActiveModel::Model
-  attr_accessor :item_id, :user_id, :post_code, :prefecture_id, :city, :house_number, :building_name, :tel, :order_id, :token
+  attr_accessor :item_id, :user_id, :post_code, :prefecture_id, :city, :house_number, :building_name, :tel, :token
 
   with_options presence: true do
     validates :post_code, format: { with: /\A\d{3}-\d{4}\z/ }
@@ -9,6 +9,8 @@ class OrderAddress
     validates :house_number
     validates :tel, format: { with: /\A\d{,11}\z/ }
     validates :token
+    validates :user_id
+    validates :item_id
   end
 
   def save
