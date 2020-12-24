@@ -7,7 +7,7 @@ class OrderAddress
     validates :prefecture_id, numericality: { other_than: 1 }
     validates :city
     validates :house_number
-    validates :tel, format: {with: /\d{11}/}
+    validates :tel, format: {with: /\A\d{,11}\z/}
   end
 
   def save
