@@ -14,11 +14,6 @@ RSpec.describe OrderAddress, type: :model do
         @order_address.building_name = nil
         expect(@order_address).to be_valid
       end
-
-      it 'telが11桁以内なら商品の購入ができること' do
-        @order_address.tel = '09012345678'
-        expect(@order_address).to be_valid
-      end
     end
 
     context '商品の購入がうまくいかない時' do
