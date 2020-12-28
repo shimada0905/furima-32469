@@ -1,5 +1,5 @@
 
-if (document.URL.match( /item/, /new/ ) || document.URL.match( /item/, /edit/ )) {
+if (document.URL.match( /new/ ) || document.URL.match( /edit/ )) {
   document.addEventListener('DOMContentLoaded', function(){
     const ImageList = document.getElementById('image-list');
 
